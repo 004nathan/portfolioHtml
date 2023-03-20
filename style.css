@@ -121,9 +121,10 @@ a {
   font-size: 2vh;
   letter-spacing: 0.2vw;
   line-height: 3vh;
-  padding-left: 17vw;
-  padding-right: 10vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
   margin-top: 5vh;
+  /* width: 10vw; */
 }
 #contact {
   height: 100vh;
@@ -179,7 +180,7 @@ label {
   cursor: pointer;
 }
 #skill {
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -254,7 +255,60 @@ label {
   justify-content: center;
   padding-left: 10vw;
 }
-#contact h1 {
+#contact h1{
   font-size: 4vh;
   border-bottom: 2px solid green;
+}
+.skillH1 {
+  font-size: 4vh;
+  width: 5vw;
+  margin:auto;
+  border-bottom: 2px solid green;
+}
+#skill{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#skillParent{
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.percentageParent{
+  height: 2vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2vh;
+}
+.percentParent{
+  height: 2vh;
+  width: 40vw;
+  background-color: white;
+  display: flex;
+  justify-content:flex-start;
+  color: #000;
+  flex-direction: row;
+  text-align: center;
+  border-radius: 5vh;
+  
+}
+.percentParent h2{
+  /* margin-top: 0.5vh; */
+  font-size: 1.5vh;
+  margin-left: 4vw;
+}
+.percentDiv{
+  height: 2vh;
+  background-color: #009e66;
+  border-radius: 5vh;
+  border-top-right-radius:2vh;
+  border-bottom-right-radius:2vh;
 }
